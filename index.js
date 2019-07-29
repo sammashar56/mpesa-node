@@ -11,7 +11,7 @@ const accountRef = Math.random().toString(35).substr(2,7)
 mpesaApi.lipaNaMpesaOnline(
 	254728506930,
 	1,
-	'/wasf.com',
+	'/callbackurl.com', 
 	accountRef
 	)
 	
